@@ -3,7 +3,7 @@
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _approximate
-zstyle :compinstall filename '/home/prometeus/.zshrc'
+zstyle :compinstall filename '/home/salih/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -48,4 +48,4 @@ function chpwd() {
 	emulate -LR zsh
 	ls
 }
-alias tail="tail -f -n 200"
+alias tail="tail -f -n 1"
